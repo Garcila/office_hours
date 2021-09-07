@@ -1,0 +1,52 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+h1 {
+  cursor: pointer;
+}
+
+header {
+  padding: 2rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+}
+
+h3,
+h4 {
+  margin-left: 2rem;
+}
+.root {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  background-color: rgb(62, 44, 79);
+  color: rgb(255, 255, 255);
+}
+
+input {
+  padding: 0.5rem 1rem;
+}
+
+.card {
+  background-color: rgb(70, 53, 85);
+  padding: 0 0 1rem 0;
+  margin: 2rem 2rem 0 2rem;
+}
+
+.image {
+  max-width: 40vw;
+}
+
+footer {
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
+}

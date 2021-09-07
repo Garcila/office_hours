@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      var key = '2d551bf0a67809e27c38c5bc0c75da65';
+      var url = `api.openweathermap.org/data/2.5/forecast?q=München,DE&appid=2d551bf0a67809e27c38c5bc0c75da65`;
+
+      fetch(
+        'https://api.openweathermap.org/data/2.5/forecast?q=London,us&appid=2d551bf0a67809e27c38c5bc0c75da65'
+      )
+        .then((response) => response.json())
+        .then((data) => console.log(data));
+    </script>
+  </body>
+</html>

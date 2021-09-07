@@ -1,0 +1,15 @@
+{
+  "name": "officenode",
+  "version": "1.0.0",
+  "description": "this is just for Office hours",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --verbose"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^4.1.1",
+    "jest": "^27.0.4"
+  }
+}
