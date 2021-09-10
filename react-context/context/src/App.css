@@ -1,0 +1,76 @@
+.App {
+  background-color: rgb(43, 42, 42);
+  min-width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.city,
+.neighbourhood,
+.building,
+.floor,
+.apartment {
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.city {
+  background-color: rgb(234, 226, 183);
+  height: 400px;
+  width: 400px;
+}
+
+.neighbourhood {
+  background-color: rgb(252, 191, 73);
+  height: 350px;
+  width: 350px;
+}
+
+.building {
+  background-color: rgb(247, 127, 0);
+  height: 250px;
+  width: 250px;
+}
+
+.floor {
+  background-color: rgb(214, 40, 40);
+  height: 150px;
+  width: 150px;
+}
+
+.apartment {
+  background-color: rgb(0, 48, 73);
+  height: 50px;
+  width: 50px;
+}
+
+.cookie {
+  font-size: 4rem;
+  cursor: pointer;
+}
+.cookie:hover {
+  transform: scale(1.05);
+}
+.cookie:active {
+  transform: scale(0.95);
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
